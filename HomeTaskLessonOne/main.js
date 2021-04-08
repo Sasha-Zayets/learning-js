@@ -1,5 +1,3 @@
-console.log('Hello world');
-
-const name = '123123123333';
+const name = 'vado';
 
 console.log(name);
