@@ -1,5 +1,4 @@
 let a = 0
-let b = 0
 let task;
 //only for
 document.getElementById('1').addEventListener('click', function () {
