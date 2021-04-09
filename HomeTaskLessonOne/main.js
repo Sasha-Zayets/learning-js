@@ -5,7 +5,7 @@ let task;
 document.getElementById('1').addEventListener('click', function () {
   task = prompt('Enter Num: ', '');
   for (let i = 0; i <= Number(task); i++) {
-    let a = +i;
+    a =+ i;
     console.log(a)
   }
 })
