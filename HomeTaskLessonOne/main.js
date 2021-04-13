@@ -1,3 +1,4 @@
+
 let a = 0
 let task;
 //only for
@@ -29,3 +30,10 @@ document.getElementById('3').addEventListener('click', function () {
   else if (task >= 21 && task <= 70) alert('У Вас доступ Gold')
   else if (task > 70) alert('Доступ заблокований')
 })
+
+console.log('Hello world');
+
+const name = 'valentine';
+
+console.log(name);
+
