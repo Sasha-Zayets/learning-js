@@ -23,7 +23,7 @@ document.getElementById('1').addEventListener('click', () => {
   }
 
   const operation = () => {
-    operator = prompt('Оберіть операцію для обробки чисел ("+" "-" "*" "/":')
+    operator = prompt('Оберіть операцію для обробки чисел "+" "-" "*" "/":')
     if (!operator || !/^[+ \- * /]+$/.test(operator)) {
       alert('Поле повинно містити оператор "+" "-" "*" "/"')
       operation();
