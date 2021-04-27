@@ -1,4 +1,4 @@
-﻿const form = document.getElementById('form')
+﻿const form = document.getElementById('arr')
 
 const visibleForm = () => {
   if (form.classList.contains('active')) form.classList.remove('active')
